@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    // 采用<translate /> 标签表示平移动画-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:duration="3000"
+    android:startOffset="1000"
+    android:fillBefore="true"
+    android:fillAfter="false"
+
+    android:repeatMode = "restart"
+    android:repeatCount = "0"
+
+
+    android:fromXDelta="0"
+    android:toXDelta="500"
+    android:fromYDelta="0"
+    android:toYDelta="500"
+
+
+
+
+    />
