@@ -1,5 +1,6 @@
 package com.beta.vietest;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 				startActivity(tmdintent);
 				break;
 			case R.id.enttzh://进入组合动画
-				Intent zhintent = new Intent(MainActivity.this, TmdActivity.class);
+				Intent zhintent = new Intent(MainActivity.this, zhActivity.class);
 				startActivity(zhintent);
 				break;
 			case R.id.entzz://进入逐帧动画

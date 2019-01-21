@@ -12,7 +12,7 @@ import android.widget.ImageView;
  * Created by Kevein on 2019/1/21.17:58
  */
 //逐帧动画
-public class ZZActivity extends AppCompatActivity implements View.OnClickListener {
+public class ZZActivity extends AppCompatActivity  {
 	private ImageView zz_iv;
 	private Button    zz_start;
 	private Button    zz_stop;
@@ -30,27 +30,25 @@ public class ZZActivity extends AppCompatActivity implements View.OnClickListene
 		zz_start = (Button) findViewById(R.id.start);
 		zz_stop = (Button) findViewById(R.id.stop);
 
-		zz_start.setOnClickListener(this);
-		zz_stop.setOnClickListener(this);
+		zz_start.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				zz_iv.setImageResource(R.drawable.view_zhuzhen);
+				mAnimationDrawable=(AnimationDrawable) zz_iv.getDrawable();
+				mAnimationDrawable.start();
+
+			}
+		});
+		zz_stop.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				zz_iv.setImageResource(R.drawable.view_zhuzhen);
+				mAnimationDrawable=(AnimationDrawable)zz_iv.getDrawable();
+				mAnimationDrawable.stop();
+			}
+		});
 	}
 
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-			case R.id.start:
-						zz_iv.setImageResource(R.drawable.view_zhuzhen);
-						//设置动画
-						mAnimationDrawable = (AnimationDrawable) zz_iv.getDrawable();
-						//获取动画对象
-						mAnimationDrawable.start();
-				break;
-			case R.id.stop:
-						zz_iv.setImageResource(R.drawable.view_zhuzhen);
-						//设置动画
-						mAnimationDrawable = (AnimationDrawable) zz_iv.getDrawable();
-						//获取动画对象
-						mAnimationDrawable.stop();
-				break;
-		}
-	}
+
 }
