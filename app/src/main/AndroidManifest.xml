@@ -21,6 +21,8 @@
         <activity android:name=".SActivity"/>
         <activity android:name=".SZActivity"/>
         <activity android:name=".TmdActivity"/>
+        <activity android:name=".zhActivity"/>
+        <activity android:name=".ZZActivity"/>
     </application>
 
 </manifest>
