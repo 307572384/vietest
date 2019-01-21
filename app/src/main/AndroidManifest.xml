@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".TActivity"/>
         <activity android:name=".TJActivity"/>
+        <activity android:name=".SActivity"/>
+        <activity android:name=".SZActivity"/>
+        <activity android:name=".TmdActivity"/>
     </application>
 
 </manifest>

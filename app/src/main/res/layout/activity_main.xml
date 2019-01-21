@@ -22,9 +22,52 @@
         android:id="@+id/entbj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="24dp"
         android:text="点击进入补间动画"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enttj" />
+
+    <Button
+        android:id="@+id/entsf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="64dp"
+        android:text="点击进入缩放动画"
+        app:layout_constraintBottom_toTopOf="@+id/enttj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/entxz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="92dp"
+        android:text="点击进入旋转动画"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entbj" />
+
+    <Button
+        android:id="@+id/enttmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="点击进入透明度动画"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entbj" />
+
+    <Button
+        android:id="@+id/enttzh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="168dp"
+        android:text="点击进入组合动画"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entbj" />
 </android.support.constraint.ConstraintLayout>
