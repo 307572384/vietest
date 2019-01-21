@@ -6,7 +6,7 @@
     android:fillAfter ="false"
     android:repeatMode = "restart"
     android:repeatCount = "0"
-    android:shareinterpolator = "true">
+ >
     <!--   // 表示组合动画中的动画是否和集合共享同一个差值器
     // 如果集合不指定插值器，那么子动画需要单独设置
 
@@ -53,7 +53,7 @@
         />
 
 
-    <!--// 特别注意： -->
+
     <!--// 1. 在组合动画里scale缩放动画设置的repeatCount（重复播放）和fillBefore（播放完后，视图是否会停留在动画开始的状态）是无效的。 -->
     <!--// 2. 所以如果需要重复播放或者回到原位的话需要在set标签里设置 -->
     <!--// 3. 但是由于此处rotate旋转动画里已设置repeatCount为infinite，所以动画不会结束，也就看不到重播和回复原位-->
