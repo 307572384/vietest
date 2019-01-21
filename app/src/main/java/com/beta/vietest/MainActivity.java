@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private Button entxz;
 	private Button enttmd;
 	private Button enttzh;
+	private Button entzz;
 
 
 	@Override
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		enttmd.setOnClickListener(this);
 		enttzh = (Button) findViewById(R.id.enttzh);
 		enttzh.setOnClickListener(this);
+		entzz = (Button) findViewById(R.id.entzz);
+		entzz.setOnClickListener(this);
 	}
 
 	@Override
@@ -67,6 +70,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			case R.id.enttzh://进入组合动画
 				Intent zhintent = new Intent(MainActivity.this, TmdActivity.class);
 				startActivity(zhintent);
+				break;
+			case R.id.entzz://进入逐帧动画
+				Intent zzintent = new Intent(MainActivity.this, ZZActivity.class);
+				startActivity(zzintent);
 				break;
 		}
 	}

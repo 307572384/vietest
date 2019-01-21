@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <!--// item = 动画图片资源；duration = 设置一帧持续时间(ms)-->
+
+
+    <item
+        android:drawable="@drawable/A0"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A1"
+        android:duration="100" />
+    <iitem
+        android:drawable="@drawable/A2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A16"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A17"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/A18"
+        android:duration="100" />
+
+
+
+</animation-list>
