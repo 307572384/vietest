@@ -11,7 +11,7 @@ import android.widget.Button;
 /**
  * Created by Kevein on 2019/1/21.16:32
  */
-
+//旋转动画
 public class zhActivity extends AppCompatActivity implements View.OnClickListener {
 	private Button zh_button;
 
